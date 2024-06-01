@@ -114,7 +114,3 @@ if __name__ == "__main__":
 
     # Видалення запису Jane
     book.delete("Jane")
-
-    # Виведення всіх записів після видалення Jane
-    for name, record in book.data.items():
-        print(record)
