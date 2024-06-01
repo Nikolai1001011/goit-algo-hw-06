@@ -38,7 +38,6 @@ class Record:
     def edit_phone(self, old_phone, new_phone):
         old_phone_found = False
         new_phone_valid = False
-
         for p in self.phones:
             if p.value == old_phone:
                 old_phone_found = True
